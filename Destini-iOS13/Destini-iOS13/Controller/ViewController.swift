@@ -32,7 +32,8 @@ class ViewController: UIViewController {
     
     @objc func updateUI() {
         storyLabel.text = storyBrain.gettingTitle()
-        choice1Button.setTitle(storyBrain.gettingChoice1(), for: .normal)
+        //choice1Button.setTitle(storyBrain.gettingChoice1(), for: .normal)
+        choice1Button.setTitle(storyBrain.gettingChoice1(), for: <#T##UIControl.State#>)
         choice2Button.setTitle(storyBrain.gettingChoice2(), for: .normal)
     }
     
