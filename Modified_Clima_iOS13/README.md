@@ -3,6 +3,10 @@
 
 #  Clima
 ![](Demo/Demo%20Pic.png)
+## New features (Personal idea):
+* Switching between celsius and fahrenheit
+## Debugg
+*let encodedCityName = cityName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "" // Modify this code line in order to fix the bug that the app could not call the APi for the cities having whitespace in name.
 ## Our Goal
 
 It’s time to take our app development skills to the next level. We’re going to introduce you to the wonderful world of Application Programming Interfaces (APIs) to grab live data from the internet. If you’re dreaming of making that Twitter-powered stock trading app then you’re about add some serious tools to your toolbelt!
@@ -48,8 +52,7 @@ switch conditionID {
             return "cloud"
         }
 ```
-## New features (Personal idea):
-* Switching between celsius and fahrenheit
+
 
 
 >This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
