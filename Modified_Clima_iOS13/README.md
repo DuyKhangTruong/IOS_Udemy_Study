@@ -48,7 +48,7 @@ switch conditionID {
             return "cloud"
         }
 ```
-## New feature:
+## New features (Personal idea):
 * Switching between celsius and fahrenheit
 
 
